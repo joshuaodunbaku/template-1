@@ -34,10 +34,12 @@ const NavBar = () => {
             <Nav.Link onClick={() => navigate("contacts")}>Contact</Nav.Link>
             <Nav.Link onClick={() => navigate("events")}>Events</Nav.Link>
           </Nav>
-          <div className="btn-div">
-            <Button className="donate-btn rounded-1 px-5 py-3 btn-lg">
-              Donate
-            </Button>
+          <div>
+            <div className="btn-div">
+              <Button className="donate-btn rounded-1 px-5 py-3 btn-lg">
+                Donate
+              </Button>
+            </div>
           </div>
         </Navbar.Collapse>
       </Container>

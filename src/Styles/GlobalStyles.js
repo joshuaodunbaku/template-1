@@ -83,14 +83,16 @@ const GlobalStyle = createGlobalStyle`
   .btn-div {
     position: relative !important;
     top: 0;
-    overflow: hidden;
+    overflow: hidden !important;
   }
 
   .donate-btn {
+    position: relative;
     background-color: var(--primary-color) !important;
     border: none !important;
     outline: none !important;
     padding: 10px 30px;
+    overflow: hidden;
   }
 
   .donate-btn::before {
