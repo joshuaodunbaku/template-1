@@ -6,8 +6,6 @@ import NavBar from "./Components/Navbar.jsx";
 import About from "./Routes/About.jsx";
 import Footer from "./Components/Footer.jsx";
 import NotFound from "./Routes/NotFound.jsx";
-import Services from "./Routes/Services.jsx";
-import Contact from "./Routes/Contact.jsx";
 
 function App() {
   return (
@@ -16,8 +14,8 @@ function App() {
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="services" element={<Services />} />
-        <Route path="contacts" element={<Contact />} />
+        {/* <Route path="services" element={<Services />} />
+        <Route path="contacts" element={<Contact />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

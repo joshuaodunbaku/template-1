@@ -120,7 +120,7 @@ const Home = () => {
           <div className="row g-4">
             <div className="col-12 col-md-5 d-flex flex-column justify-content-center">
               <h2 className="mb-3 display-5 fw-bold">
-                Gifts for his body, mind and spirit
+                Gifts that help him unwind
               </h2>
               <p className="mb-3">
                 Support his goals, help him monitor his health, and amplify the
@@ -174,7 +174,7 @@ const Home = () => {
           <div className="row g-4">
             <div className="col-12 col-md-5 d-flex flex-column justify-content-center">
               <h2 className="mb-3 display-5 fw-bold">
-                Gifts for his body, mind and spirit
+                Gifts for the moments that matter
               </h2>
               <p className="mb-3">
                 Support his goals, help him monitor his health, and amplify the
