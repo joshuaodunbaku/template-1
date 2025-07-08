@@ -1,9 +1,4 @@
-import { Button, Card, Col, Container, Image, Row } from "react-bootstrap";
 import IMAGES from "../assets/images";
-import AnimatedCard from "../Components/AnimatedCard";
-import { BiArrowToRight } from "react-icons/bi";
-import { BsArrowBarRight } from "react-icons/bs";
-import { SlArrowRight } from "react-icons/sl";
 import { GoChevronRight } from "react-icons/go";
 
 const Home = () => {
@@ -182,7 +177,7 @@ const Home = () => {
               </p>
               <div>
                 <button className="btn btn-outline-dark rounded-4 py-2 px-4">
-                  <span className="d-flex align-items-center fw-bold">
+                  <span className="d-flex align-items-center gap-2 fw-bold">
                     SHOP FATHER'S DAY
                     <GoChevronRight size={20} />
                   </span>

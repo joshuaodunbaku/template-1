@@ -1,4 +1,3 @@
-import React from "react";
 import HeroComp from "../Components/HeroComp";
 import IMAGES from "../assets/images";
 import { useNavigate } from "react-router-dom";
